@@ -1,28 +1,9 @@
 package main
 
-import "fmt"
-
 func main() {
+	cards := deck{"Ace of Diamonds", "Queen of Hearts"}
+	cards.print()
 
-	//long from of variable decleration
-
-	var mycard string = "Jack"
-	fmt.Println(mycard)
-
-	// new from of variable decleration
-	card := "Ace of Spades"
-	fmt.Println("Cards Project", card)
-
-	// reasigning varibale
-
-	card = "Queen of Hearts"
-
-	x := 10
-	y := 20
-
-	sum := x + y
-
-	fmt.Println(sum)
-
-	fmt.Println(card)
+	number := nums{1, 2, 3, 4, 5, 6, 7, 8}
+	number.print()
 }
