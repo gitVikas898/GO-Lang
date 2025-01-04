@@ -11,3 +11,5 @@
     - var variable_name type(int,string,...) = value
     - or variable_name := value
 # Functions in GO
+    -reciever functions
+# Custom type decleration in go 
