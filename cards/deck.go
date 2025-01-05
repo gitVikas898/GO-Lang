@@ -22,8 +22,14 @@ func newDeck() deck {
 	return cards
 }
 
+// utility function to print
 func (cards deck) print() {
 	for i, card := range cards {
 		fmt.Println(i, card)
 	}
+}
+
+//deal function
+func deal(pack deck, handSize int) (deck, deck) {
+	return pack[:handSize], pack[handSize:]
 }
