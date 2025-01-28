@@ -10,7 +10,7 @@ func main() {
 	// greeting := "Hi There"
 	// fmt.Println([]byte(greeting)) // Type Conversion in Go
 
-	cards := newDeck()
-	cards.saveToFile("my_cards")
+	cards := newDeckFromFile("my_cards")
+	cards.print()
 
 }
